@@ -4,7 +4,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon --exec babel-node ",
+    "dev": "nodemon --exec babel-node app.js",
     "start": "node app.js",
     "build": "npm run dev"
   },
